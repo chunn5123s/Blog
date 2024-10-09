@@ -116,6 +116,16 @@ html {
     text-align: center
 }
 
+.blog-card-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10.6%;
+}
+
+.blog-card-tabs.nd{
+    
+}
+
 .category-tabs {
     display: flex;
     align-items: baseline;
@@ -138,8 +148,77 @@ html {
     color: #fff;
 }
 
-.blog-card-item .img-item {
+.blog-card-tabs .blog-card-item {
+    position: relative;
+    border: 2px solid rgba(235, 235, 235, 1);
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    display:block;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.blog-card-item .blog-card-content {
+    background: #fff;
+    color: black;
+    width: 390px;
+    height: 136px;
+    border-radius: 12px;
+    position: absolute;
+    top: 262px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom:2px solid rgba(235, 235, 235, 1);
+    border-left:2px solid rgba(235, 235, 235, 1);
+    border-right:2px solid rgba(235, 235, 235, 1);
+} 
+
+.img-item img {
     width: 389px;
-    height: 276px;
-    border-radius: 24px;
-}   
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.blog-card-content .tag {
+    background: rgba(128, 0, 8, 0.8);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 40px;
+    margin: 12px 12px;
+    display: inline-block;
+}
+
+.blog-card-content .item-content {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 0px 12px;
+}
+
+.blog-card-content .time {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(176, 176, 176, 1);
+    margin-top: 18px;
+    margin-left: 3.2%;
+}
+
+.blog-card-content .btn {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgba(194, 0, 12, 1);
+    padding: 16px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -5.6px;
+}
+
+.blog-card-content .btn .ti-angle-right {
+    font-size: 11px;
+    font-weight: 700;
+}
