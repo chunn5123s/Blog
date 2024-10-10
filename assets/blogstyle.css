@@ -82,7 +82,7 @@ html {
 }
 
 .container-heading .heading-text {
-    padding: 30px;
+    padding: 26px 0px 0px 26px;
 }
 
 .heading-text .content {
@@ -98,7 +98,7 @@ html {
     font-weight: 400;
     line-height: 24px;
     color: rgba(102, 102, 102, 1);
-    padding-bottom: 20px;
+    padding-bottom: 24px;
 }
 
 .container-heading .heading-img {
@@ -114,6 +114,11 @@ html {
     color: #fff;
     line-height: 23px;
     text-align: center
+}
+
+.container-heading .heading-text .button:hover {
+    background-image: linear-gradient(rgba(245, 127, 32, 1),rgba(214, 43, 8, 1));
+    cursor: pointer;
 }
 
 .blog-card-tabs {
