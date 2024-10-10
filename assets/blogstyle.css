@@ -156,7 +156,6 @@ html {
 
 .blog-card-tabs .blog-card-item {
     position: relative;
-    border: 2px solid rgba(235, 235, 235, 1);
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
     display:block;
@@ -180,9 +179,10 @@ html {
 } 
 
 .img-item img {
-    width: 389px;
+    width: 390px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
+    border: 2px solid rgba(235, 235, 235, 1);
 }
 
 .blog-card-content .tag {
