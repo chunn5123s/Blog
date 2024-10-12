@@ -75,7 +75,7 @@ html {
     border-radius: 24px;
     padding: 18px;
     justify-content: space-between;
-    width: 1260px;
+    width: 80%;
     margin-left: 8.9%;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
     margin-bottom: 48px;
@@ -122,13 +122,10 @@ html {
 }
 
 .blog-card-tabs {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
-    margin-bottom: 10.6%;
-}
-
-.blog-card-tabs.nd{
-    
+    margin-bottom: 0.6%;
+    margin-left: 8%;
 }
 
 .category-tabs {
@@ -155,34 +152,27 @@ html {
 }
 
 .blog-card-tabs .blog-card-item {
+    height: 408px;
     position: relative;
-    border-top-left-radius: 24px;
-    border-top-right-radius: 24px;
-    display:block;
-    margin-left: 16px;
-    margin-right: 16px;
+    margin: 20px;
+    border: 2px solid rgba(235, 235, 235, 1);
+    border-radius: 24px;
 }
 
 .blog-card-item .blog-card-content {
-    background: #fff;
+    background: #ffffff;
     color: black;
-    width: 390px;
+    width: 100%;
     height: 136px;
     border-radius: 12px;
     position: absolute;
     top: 262px;
-    border-bottom-left-radius: 24px;
-    border-bottom-right-radius: 24px;
-    border-bottom:2px solid rgba(235, 235, 235, 1);
-    border-left:2px solid rgba(235, 235, 235, 1);
-    border-right:2px solid rgba(235, 235, 235, 1);
-} 
+}
 
 .img-item img {
     width: 390px;
     border-top-left-radius: 24px;
     border-top-right-radius: 24px;
-    border: 2px solid rgba(235, 235, 235, 1);
 }
 
 .blog-card-content .tag {
